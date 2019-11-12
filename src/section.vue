@@ -8,7 +8,7 @@
         <!-- wwManager:start -->
         <wwSectionEditMenu v-bind:sectionCtrl="sectionCtrl"></wwSectionEditMenu>
         <!-- wwManager:end -->
-        <div class="elem-container" v-for="(elem, index) in section.data.elems" :key="elem.id">
+        <div class="elem-container" v-for="(elem, index) in section.data.elems" :key="elem.id" :class="{ 'mt': index % 2 }">
             <div class="elem">
                 <div class="img">
                     <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1132 1211">
@@ -250,7 +250,7 @@ export default {
     width: 100%;
     @media (min-width: 1024px) {
       width: 50%;
-      &:nth-child(2n + 1) {
+      &.mt {
         margin-top: 25vh;
       }
     }

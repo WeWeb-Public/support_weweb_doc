@@ -1,27 +1,27 @@
 {
-    "name": "support_weweb_doc",
-    "type": "section",
-    "wewebPublic": "true",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/WeWeb-Public/support_weweb_doc"
-    },
-    "version": "0.0.1",
-    "private": true,
-    "scripts": {
-        "build": "weweb-build",
-        "serve": "weweb-serve",
-        "upload": "weweb-upload"
-    },
-    "dependencies": {
-        "vue": "^2.6.10"
-    },
-    "devDependencies": {
-        "weweb-client": "^1.0.50"
-    },
-    "browserslist": [
-        "> 1%",
-        "last 2 versions",
-        "not ie <= 8"
-    ]
+  "name": "support_weweb_doc",
+  "type": "section",
+  "wewebPublic": "true",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WeWeb-Public/support_weweb_doc"
+  },
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "build": "weweb-build",
+    "serve": "weweb-serve",
+    "upload": "weweb-upload"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "weweb-client": "^1.0.50"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
